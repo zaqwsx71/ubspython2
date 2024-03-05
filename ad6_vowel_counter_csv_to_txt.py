@@ -14,5 +14,5 @@ def process_csv_file(input_file, output_file):
         for key, value in data.items():
             txtfile.write(f"{{'{key}' : {value}}}\n")
 
-# Process the CSV file 'inputs.csv' and write the results to 'results.txt'
+
 process_csv_file('inputs.csv', 'results.txt')
